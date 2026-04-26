@@ -1,10 +1,24 @@
-import { Button } from '@/components/ui/button';
+import { SidebarInset, SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar';
+import { AppSidebar } from '@/components/app-sidebar';
+import { ThemeProvider } from '@/components/theme-provider';
+import { Toaster } from '@/components/ui/sonner';
+import JsonToDynamicConverterTool from '@/components/json-dynamic-converter/tool';
 
 function App() {
   return (
-    <div className="flex flex-col h-screen w-full items-center justify-center gap-y-2">
-      <h1 className="font-medium text-lg">CX Kit - A tool for NiCE CXone</h1>
-      <Button>Click me</Button>
+    <div>
+      <ThemeProvider defaultTheme="dark" storageKey="cxkit-ui-theme">
+        <SidebarProvider>
+          <AppSidebar />
+          <SidebarInset>
+            <header className="flex h-16 shrink-0 items-center gap-2 border-b px-4">
+              <SidebarTrigger className="-ml-1" />
+            </header>
+            <JsonToDynamicConverterTool />
+          </SidebarInset>
+        </SidebarProvider>
+      </ThemeProvider>
+      <Toaster />
     </div>
   );
 }
