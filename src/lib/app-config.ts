@@ -1,7 +1,6 @@
 export type NavItem = {
   title: string;
   url: string;
-  isActive?: boolean;
 };
 
 export type NavGroup = {
@@ -24,7 +23,7 @@ export const appConfig: AppConfig = {
       items: [
         {
           title: 'JSON to Dynamic Converter',
-          url: '/utilities/json-dynamic',
+          url: '/utilities/json-dynamic-converter',
         },
       ],
     },

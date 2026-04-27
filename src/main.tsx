@@ -1,13 +1,7 @@
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
+import * as ReactDOM from 'react-dom/client';
 import '@/index.css';
-import App from '@/App.tsx';
-import { TooltipProvider } from '@/components/ui/tooltip.tsx';
+import RootApp from '@/root-app';
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <TooltipProvider>
-      <App />
-    </TooltipProvider>
-  </StrictMode>,
-);
+const container = document.getElementById('root') as HTMLElement;
+const root = ReactDOM.createRoot(container);
+root.render(<RootApp />);
