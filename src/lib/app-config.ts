@@ -25,6 +25,10 @@ export const appConfig: AppConfig = {
           title: 'JSON to Dynamic Converter',
           url: '/utilities/json-dynamic-converter',
         },
+        {
+          title: 'cURL to Rest API Converter',
+          url: '/utilities/curl-rest-api-converter',
+        },
       ],
     },
   ],

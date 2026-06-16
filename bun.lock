@@ -6,6 +6,7 @@
       "name": "cxkit",
       "dependencies": {
         "@fontsource-variable/geist": "^5.2.8",
+        "@scrape-do/curl-parser": "^0.4.2",
         "@tabler/icons-react": "^3.41.1",
         "@tailwindcss/vite": "^4.2.4",
         "class-variance-authority": "^0.7.1",
@@ -478,6 +479,8 @@
     "@rolldown/plugin-babel": ["@rolldown/plugin-babel@0.2.3", "", { "dependencies": { "picomatch": "^4.0.4" }, "peerDependencies": { "@babel/core": "^7.29.0 || ^8.0.0-rc.1", "@babel/plugin-transform-runtime": "^7.29.0 || ^8.0.0-rc.1", "@babel/runtime": "^7.27.0 || ^8.0.0-rc.1", "rolldown": "^1.0.0-rc.5", "vite": "^8.0.0" }, "optionalPeers": ["@babel/plugin-transform-runtime", "@babel/runtime", "vite"] }, "sha512-+zEk16yGlz1F9STiRr6uG9hmIXb6nprjLczV/htGptYuLoCuxb+itZ03RKCEeOhBpDDd1NU7qF6x1VLMUp62bw=="],
 
     "@rolldown/pluginutils": ["@rolldown/pluginutils@1.0.0-rc.7", "", {}, "sha512-qujRfC8sFVInYSPPMLQByRh7zhwkGFS4+tyMQ83srV1qrxL4g8E2tyxVVyxd0+8QeBM1mIk9KbWxkegRr76XzA=="],
+
+    "@scrape-do/curl-parser": ["@scrape-do/curl-parser@0.4.2", "", {}, "sha512-GAFzlaWIU7vpD2PAtPJycS2D43Jus3oWSxWCvs/CVjHi4bfTePKjYur+afo43TIH1YXTjnOWcYdkZrXPC4Lz2g=="],
 
     "@sec-ant/readable-stream": ["@sec-ant/readable-stream@0.4.1", "", {}, "sha512-831qok9r2t8AlxLko40y2ebgSDhenenCatLVeW/uBtnHPyhHOvG0C7TvfgecV+wHzIm5KUICgzmVpWS+IMEAeg=="],
 
